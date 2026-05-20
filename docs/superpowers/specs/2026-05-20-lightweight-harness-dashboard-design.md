@@ -184,7 +184,7 @@ OMC의 나머지 에이전트(explore, analyst, architect, debugger, code-review
 
 - 순수 HTML + CSS + Vanilla JS (빌드 도구 없음)
 - `.artifacts/index.json`을 `fetch()`로 읽어 렌더링
-- 실행: 브라우저에서 `file://` 직접 열기 또는 `npx serve .artifacts`
+- 실행: 프로젝트 루트에서 `npx serve .` 후 `dashboard/index.html` 접근. `app.js`는 `../.artifacts/index.json`을 상대 경로로 fetch.
 
 ### 화면 구성
 
